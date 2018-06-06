@@ -1,0 +1,66 @@
+# Default rule
+* text=auto
+
+# >  Text formats  <
+
+# Unity Assets
+*.anim text
+*.asset text
+*.controller text
+*.cubemap text
+*.flare text
+*.fontsettings text
+*.guiskin text
+*.ht text
+*.mask text
+*.mat text
+*.meta text
+*.physicMaterial text
+*.prefab text
+*.renderTexture text
+*.shader text
+*.unity text
+
+# Scripts
+*.cs text diff=csharp
+*.js text
+*.sh text
+*.command text
+
+# Misc
+*.md text
+*.txt text
+*.csv text
+*.tsv text
+*.mdpolicy text
+*.html text diff=html
+*.json text
+*.asmdef text
+
+# >  Binary formats  <
+
+# Unity
+LightingData.asset binary
+LightmapSnapshot.asset binary
+
+# Images
+*.bmp binary
+*.jpg binary
+*.png binary
+*.tga binary
+*.tif binary
+*.psd binary
+*.exr binary
+
+# Meshes
+*.3ds binary
+*.fbx binary
+*.FBX binary
+*.obj binary
+
+# Audio
+*.mp3 binary
+*.wav binary
+
+# Misc
+*.dll binary
